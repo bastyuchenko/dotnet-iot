@@ -1,4 +1,4 @@
-// Licensed to the .NET Foundation under one or more agreements.
+﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 
 using System;
@@ -6,7 +6,7 @@ using System.Device.Gpio;
 using System.Threading;
 
 int pin = 18;
-int lightTime = 1000;
+int lightTime = 200;
 int dimTime = 200;
 
 using GpioController controller = new();
