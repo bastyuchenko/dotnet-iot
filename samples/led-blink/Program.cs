@@ -7,7 +7,7 @@ using System.Threading;
 
 int pin = 18;
 int lightTime = 200;
-int dimTime = 200;
+int dimTime = 1000;
 
 using GpioController controller = new();
 controller.OpenPin(pin, PinMode.Output);
